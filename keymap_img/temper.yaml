@@ -29,7 +29,7 @@ layers:
     - Symbols
     - {t: /, s: '?'}
   Nav:
-  - ['', '', '&mmv MOVE_UP', '&msc SCRL_RIGHT', '&msc SCRL_LEFT', '', ⌘, ⎇, ⌃, RIGHT SHIFT]
+  - ['', '', '&mmv MOVE_UP', '&msc SCRL_RIGHT', '&msc SCRL_LEFT', '&mkp MB3', ⌘, ⎇, ⌃, RIGHT SHIFT]
   - ['', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN', '&mmv MOVE_RIGHT', '&msc SCRL_DOWN', LEFT ARROW, ↓, UP ARROW, RIGHT ARROW, '']
   - - LEFT SHIFT
     - ⌃
@@ -70,8 +70,8 @@ layers:
   - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10]
   - - F11
     - F12
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - BT CLR
+    - BT CLR ALL
     - '&studio_unlock'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -81,10 +81,10 @@ layers:
   - - {t: BT, h: '0'}
     - {t: BT, h: '1'}
     - {t: BT, h: '2'}
-    - BT CLR
-    - BT CLR ALL
+    - PG UP
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - PG DN
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - '&bootloader'
